@@ -6,7 +6,7 @@ for (let atual = 0; atual < livros.length - 1; atual++) {
     //verificar qual é o menor valor
     let menor = menorValor(livros, atual);
 
-    // irá guarda uma informção (dado).
+    // irá guarda uma informção (dado)
     let livroAtual =  livros[atual];
     console.log('posição atual', atual);
     console.log('Livro atual é ', livros[atual]);
