@@ -12,11 +12,7 @@ const precosLivros = [
         preco: 30
     },
     {
-        titulo: "Eliixir",
-        preco: 50
-    },
-    {
-        titulo: "Java",
+        titulo: "Elixir",
         preco: 50
     },
     {
