@@ -25,4 +25,5 @@ const precosLivros = [
     },
 ];
 
+// para poder importar e usalo em outras parte
 module.exports = precosLivros;
