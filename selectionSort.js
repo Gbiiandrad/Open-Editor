@@ -14,7 +14,7 @@ for (let atual = 0; atual < livros.length - 1; atual++) {
     let livroMenorPreco = livros[menor];
     console.log('Livro menor preço é ', livros[menor]);
 
-    //trocando de lugar
+    //trocando de lugar.
     livros[atual] = livroMenorPreco;
     livros[menor] = livroAtual;
 }

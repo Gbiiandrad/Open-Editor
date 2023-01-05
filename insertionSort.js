@@ -13,7 +13,7 @@ function insertionSort(lista){
             lista[analise] = itemAnterior;
             lista[analise - 1] = itemAnalise;
 
-            //parada. Ele irá voltar por isso o --
+            //parada. Ele irá voltar por isso o -- .
             analise--
         }
     }
