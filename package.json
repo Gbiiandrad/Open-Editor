@@ -1,0 +1,23 @@
+{
+  "name": "open_editor",
+  "version": "1.0.0",
+  "description": "projeto JS realizado no curso \"JavaScript 1: Algoritmos de Ordenação.\"",
+
+  "type": "module",
+
+  "main": "User.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gbiiandrad/Open_Editor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gbiiandrad/Open_Editor/issues"
+  },
+  "homepage": "https://github.com/Gbiiandrad/Open_Editor#readme"
+}
