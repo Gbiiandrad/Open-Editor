@@ -18,7 +18,7 @@ const admin = {
     }
 }
 
-Object.setPrototypeOf(admin, user); //definir um prototico
+Object.setPrototypeOf(admin, user); //definir um prototico.
 
 admin.criarCurso();
 admin.exibirInfos();
