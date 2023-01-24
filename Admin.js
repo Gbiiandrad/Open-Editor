@@ -16,4 +16,4 @@ const novoAdmin = new Admin ('Rodrigo', 'r@r.com', '2023-01-01');
 console.log(novoAdmin.criarCursos('JS', 40));
 
 /* console.log(novoAdmin);
-console.log(novoAdmin.exibirInfos()); .*/
+console.log(novoAdmin.exibirInfos()); */
