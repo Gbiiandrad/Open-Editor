@@ -22,5 +22,6 @@ function Admin (role) {
 Admin.prototype = Object.create(User.prototype);
 const novoUser = new Admin ('Admin');
 
+
 console.log(novoUser.exibirInfos());
 console.log(novoUser.role);
