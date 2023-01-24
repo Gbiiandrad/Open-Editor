@@ -43,4 +43,6 @@ const novoUser = Object.create(user);
 novoUser.init('Juliana', 'j@j.com');
 
 console.log(novoUser.exibirInfos());
-//console.log(user.isPrototypeOf(novoUser)); 
+//console.log(user.isPrototypeOf(novoUser));
+
+// * fim *
