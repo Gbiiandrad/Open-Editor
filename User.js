@@ -1,5 +1,7 @@
-// Primeira classe
-class User {
+// Primeira classe e exportar oi codigo dessa clase
+// Não esquecer de criar o pack JSON ---- * npm init -y * E colocar o *"type": "module",* no arquivo.
+
+export default class User {
     constructor(nome, email, nascimento, role, ativo = true) {
         this.nome = nome;
         this.email = email;
@@ -10,12 +12,6 @@ class User {
 
     //metodos
     exibirInfos() {
-        return `Nome: ${this.nome}. Email: ${this.email}.`;
+        return `Nome: ${this.nome} - Email: ${this.email}`;
     }
 }
-
-const novoUser = new User('Juliana', 'j@j.com', '2023-01-23');
-console.log(novoUser);
-console.log(novoUser.exibirInfos());
-
-console.log(User.prototype.isPrototypeOf(novoUser)); // objetivo é dar "true"
